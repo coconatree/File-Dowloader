@@ -1,8 +1,8 @@
-# Academic Integrity
+## Academic Integrity
 
 This account does not take responsibility for any sorts of plagiarism about the repositories contents. And discourages any action that goes againts the rules of academic integrity.
 
-# Note
+## Note
 
 ```
 To a false assumtion of mine this assigment does not work properly.
@@ -15,7 +15,7 @@ But it has a logic erro in it's design and doesn't retrieve all the files it nee
  Rest of the protocol implementation is hard-coded inside the application.   
 ```
 
-# HTTP-GET-IMPLEMENTATION
+## HTTP-GET-IMPLEMENTATION
 
 This repository contains an programming assigment from a computer networks course.
 It is a command line aplication. 
@@ -24,7 +24,7 @@ Afterwards it compares the size retrieved from the GET HEAD request.
 Depending on the resulting condition, it sends a GET RANGE request to retrieve a part of the file.
 In the and it saves the dowloaded files to the project's folder and informs the user by printing information.
 
-# How to use it
+## How to use it ?
 
 ```
 
