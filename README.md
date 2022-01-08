@@ -2,6 +2,18 @@
 
 This account does not take responsibility for any sorts of plagiarism about the repositories contents. And discourages any action that goes againts the rules of academic integrity.
 
+# Note
+
+```
+To a false assumtion of mine this assigment does not work properly.
+It doesn't have any problems running. (Mostly)
+But it has a logic erro in it's design and doesn't retrieve all the files it needs to.
+```
+
+```
+ All of the HTTP layer request are made using only the java socket API. Rest of the protocol implementation is hard-coded inside the application.   
+```
+
 # HTTP-GET-IMPLEMENTATION
 
 This repository contains an programming assigment from a computer networks course.
@@ -23,9 +35,3 @@ In the and it saves the dowloaded files to the project's folder and informs the 
 - Running
   - java FileDowloader <One of the test cases> <lowerbound - int>-<upperbound - int> 
   - java FileDowloader www.cs.bilkent.edu.tr/~cs421/fall21/project1/index2.txt 100-1000
-
-# Note
-
-To a false assumtion of mine this assigment does not work properly.
-It doesn't have any problems running. (Mostly)
-But it has a logic erro in it's design and doesn't retrieve all the files it needs to.
