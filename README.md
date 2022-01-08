@@ -11,7 +11,8 @@ But it has a logic erro in it's design and doesn't retrieve all the files it nee
 ```
 
 ```
- All of the HTTP layer request are made using only the java socket API. Rest of the protocol implementation is hard-coded inside the application.   
+ All of the HTTP layer request are made using only the java socket API. 
+ Rest of the protocol implementation is hard-coded inside the application.   
 ```
 
 # HTTP-GET-IMPLEMENTATION
@@ -25,6 +26,8 @@ In the and it saves the dowloaded files to the project's folder and informs the 
 
 # How to use it
 
+```
+
 - Compiling
   - javac FileDowlader.java
   
@@ -35,3 +38,5 @@ In the and it saves the dowloaded files to the project's folder and informs the 
 - Running
   - java FileDowloader <One of the test cases> <lowerbound - int>-<upperbound - int> 
   - java FileDowloader www.cs.bilkent.edu.tr/~cs421/fall21/project1/index2.txt 100-1000
+
+```
